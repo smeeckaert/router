@@ -132,11 +132,8 @@ class Router
         if (empty($matchingRoute)) {
             throw new Exception\NotFound;
         }
-        $params = $matchingRoute['params'];
-        var_dump($params);
-        var_dump($matchingRoute);
+        $params        = $matchingRoute['params'];
         $this->_action = $params['action'];
-        var_dump($this->_cacheParams);
         return new $params['controller'];
     }
 
