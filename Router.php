@@ -1,8 +1,8 @@
 <?php
 
-namespace Router;
+namespace FW\Router;
 
-use Tools\Arr;
+use FW\Tools\Arr;
 
 class Router
 {
@@ -104,7 +104,7 @@ class Router
     /**
      * Dispatch routeur parameters to a controller and execute the matching action
      *
-     * @param \Controller\Controller $controller
+     * @param \FW\Controller\Controller $controller
      */
     public function dispatch($controller, $options)
     {

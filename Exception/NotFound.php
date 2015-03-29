@@ -1,6 +1,6 @@
 <?php
 
-namespace Router\Exception;
+namespace FW\Router\Exception;
 
 class NotFound extends \Exception
 {
