@@ -106,10 +106,10 @@ class Router
      *
      * @param \Controller\Controller $controller
      */
-    public function dispatch($controller)
+    public function dispatch($controller, $options)
     {
         $controller->setParams($this->_cacheParams);
-        return $controller->action($this->_action);
+        return $controller->action($this->_action, $options);
     }
 
     /**
