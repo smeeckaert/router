@@ -1,0 +1,19 @@
+{
+  "name": "smeeckaert/fw-router",
+  "description": "Router for FW",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Martin Smeeckaert",
+      "email": "martin@smeeckaert.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FW\\Router\\": ""
+    }
+  },
+  "require": {
+    "smeeckaert/fw-tools": "~1.0"
+  }
+}
